@@ -125,7 +125,7 @@ legend {
 }
 legend {
     text-align: left; /* needed for webkit browsers */
-    #font-family: 'Liberation Sans',Arial,Helvetica,sans-serif; /* fix MSIE 6/7 */
+/*    #font-family: 'Liberation Sans',Arial,Helvetica,sans-serif; *//* fix MSIE 6/7 */
 }
 
 /* basic margins and paddings */
@@ -491,7 +491,7 @@ th[align="right"] {
     text-align: right;
 }
 .dokuwiki table.inline {
-    #border: 1px solid #606060; /* fix MSIE 6/7 */
+    /*#border: 1px solid #606060; *//* fix MSIE 6/7 */
 }
 .dokuwiki table.inline th,
 .dokuwiki table.inline tr {
@@ -772,7 +772,7 @@ div#pagewrap {
     font-size: 70%;
     color: __text_neu__;
     text-align: center;
-    #zoom: 1; /* fix MSIE 6/7 */
+    /*#zoom: 1; *//* fix MSIE 6/7 */
 }
 #tmpl_footer #tmpl_footer_actlinksleft {
     float: left;
@@ -1064,7 +1064,7 @@ div.insitu-footnote {
     font-size: 10px !important;
     padding: 5px 6px;
     line-height: 1.333em;
-    #line-height: 1em; /* fix MSIE 6, 7 */
+    /*#line-height: 1em; *//* fix MSIE 6, 7 */
 }
 .dokuwiki input.button[type=image],
 .dokuwiki button.button[type=image] {
@@ -1135,8 +1135,8 @@ div.picker button.pickerbutton {
 }
 .dokuwiki #wiki__editbar .editButtons,
 .dokuwiki #wiki__editbar .summary {
-    #display: block; /* Fix MSIE 6, 7 */
-    #margin-top: 25px;
+/*    #display: block; *//* Fix MSIE 6, 7 */
+/*    #margin-top: 25px; */
 }
 
 
