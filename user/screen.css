@@ -38,7 +38,7 @@ body {
     margin: 0 auto;
 /*     background-color: #efeded; */
 /* e8e2d4 */
-     background-color: #e6e0d3; 
+     background-color: #fafafa;
      background-image: url('user/body_bg.gif');
     font: normal 100%/1.4em 'Liberation Sans',Arial,Helvetica,sans-serif;
     /* same font stack should be used for ".dokuwiki div.toc" */
@@ -552,9 +552,10 @@ div#pagewrap {
 
 #tmpl_header {
     width: 100%;
-    border-bottom: 1px solid __border__;
+    border-bottom: 0px solid __border__;
     padding: 0;
     margin: 0 0 3em 0;
+    text-align: center;
 }
 
 /* header: dynamic text logo */
@@ -1057,9 +1058,9 @@ div.insitu-footnote {
 /* normal buttons */
 .dokuwiki input.button,
 .dokuwiki button.button {
-    background: #911719 none !important;
-    border: 1px solid #d8d2c4;
-    color: #fff;
+    background: #ffd780 none !important;
+    border: 1px solid #ffae00;
+    color: #000000;
     font-weight: bold;
     font-size: 10px !important;
     padding: 5px 6px;
@@ -1101,7 +1102,7 @@ html>body button.toolbutton {
 .dokuwiki input.edit,
 .dokuwiki select.edit {
     border: 1px solid #606060;
-    background-color: #f0eadb;
+    background-color: #fff5df;
 }
 .dokuwiki input.edit,
 .dokuwiki select.edit {
